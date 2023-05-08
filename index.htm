@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Workout Timer</title>
+</head>
+<body>
+    <audio id="alarm" src="./assets/alarm/Classic Alarm Clock - Sound Effect for Editing.mp3" loop></audio>
+    <div id="container">
+<div id="breakSetter">
+    <label for="break">Break Time:</label>
+    <div class="minutesAndSeconds">
+    <input id="break-minutes" type="number" placeholder="minutes" min="0" max="59">
+    <input id="break-seconds" type="number" placeholder="seconds" min="0" max="59">
+</div>
+    <button id="setting">SET IT</button>
+</div>
+    
+<div id="sets">
+<p id="set">SETS: 0</p>
+<button id="setReset">Reset Sets</button>
+</div>
+
+    <div id="timerArea">
+
+            <span id="timer"></span>
+            <div id="stopAndPLay">
+            <button id="play">PLAY</button>
+            <button id="reset">RESET</button>
+        </div>
+            <button id="stop">STOP</button>
+
+
+    </div>
+</div>
+    
+
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>

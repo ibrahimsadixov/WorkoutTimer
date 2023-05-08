@@ -1,0 +1,177 @@
+body{
+    height: 100vh;
+    width: 100%;
+}
+audio{
+    display: none;
+}
+#container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #121212;
+}
+#timerArea{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+button{
+    width: 100px;
+    cursor: pointer;
+}
+#timer{
+    font-size: 6rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: 100px;
+}
+#sets{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
+}
+#breakSetter{
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    height: 200px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    
+}
+#breakSetter label{
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.minutesAndSeconds{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+#breakSetter .minutesAndSeconds input{
+   border: 1px solid transparent;
+   border-radius: 8px;
+   width: 100px;
+   padding-left: 5px;
+   height: 25px;
+}
+#setting{
+    background-color: rgb(219, 139, 35);
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+ }
+#stopAndPlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#stopAndPLay button{
+    height: 80px;
+    width: 160px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#stop{
+    background-color: rgb(170, 28, 28);
+    height: 40px;
+    width: 80px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+#play{
+    background-color: rgb(221, 200, 80);
+    color: white;
+}
+#reset{
+    background-color: rgb(80, 158, 221);
+    color: white;
+}
+
+
+
+@media (max-width: 420px) {
+
+#timer{
+    font-size: 4rem;
+
+}
+#set{
+    font-size: 1.5rem;
+}
+#breakSetter{
+
+    right: 20px;
+    
+}
+
+
+#setting{
+    background-color: rgb(219, 139, 35);
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+ }
+
+#stopAndPLay button{
+    height: 60px;
+    width: 120px;
+}
+#stop{
+    background-color: rgb(170, 28, 28);
+    height: 40px;
+    width: 80px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+  }
+  #setReset{
+    height: 40px;
+    width: 80px;
+    background-color: rgb(116, 131, 32);
+    border: 1px solid transparent;
+    border-radius: 8px;
+    color: white;
+  }
